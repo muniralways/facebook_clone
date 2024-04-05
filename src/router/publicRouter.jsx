@@ -3,7 +3,8 @@
 
 //create public router
 
-import Auth from "../pages/Auth";
+
+import Auth from "../pages/auth/Auth";
 import { Home } from "../pages/home/Home";
 
 

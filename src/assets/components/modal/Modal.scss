@@ -1,0 +1,52 @@
+.modal-blur-area{
+ width: 100vw;
+ height: 100vh;
+ background-color:rgba(255, 255, 255, .8);
+ position: fixed;
+ z-index: 99999999;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+ 
+ .modal-container{
+  width: 432px;
+  background-color: #ffff;
+  box-shadow: var(--box-shadow);
+  border-radius: 8px ;
+
+  .modal-head{
+   padding: 20px;
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom: 1px solid #cccc;
+
+   .modal-header-content{
+    h2{
+     color: #1c1e21;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 0;
+    }
+    P{
+     color: #606770;
+     font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+     font-size: 15px;
+     line-height: 24px;
+    }
+   }
+   .crossbtn{
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+   }
+  }
+  .modal-body{
+   padding: 20px;
+  }
+ }
+}
